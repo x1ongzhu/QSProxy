@@ -12,6 +12,12 @@
 		3A0585B023C1B2B7004E11B7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A0585AE23C1B2B7004E11B7 /* MainMenu.xib */; };
 		3A0585BC23C1B2B7004E11B7 /* QSProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0585BB23C1B2B7004E11B7 /* QSProxyTests.swift */; };
 		3A0585C723C1B2B7004E11B7 /* QSProxyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0585C623C1B2B7004E11B7 /* QSProxyUITests.swift */; };
+		3A0585DB23C1D468004E11B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0585DA23C1D468004E11B7 /* AppDelegate.swift */; };
+		3A0585DD23C1D469004E11B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0585DC23C1D469004E11B7 /* Assets.xcassets */; };
+		3A0585E023C1D469004E11B7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A0585DE23C1D469004E11B7 /* MainMenu.xib */; };
+		3A0585EC23C1D609004E11B7 /* QSProxyLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A0585D823C1D468004E11B7 /* QSProxyLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3A0585ED23C1D613004E11B7 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0585E923C1D51F004E11B7 /* ServiceManagement.framework */; };
+		3A0585EF23C1D73B004E11B7 /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 3A0585EE23C1D73B004E11B7 /* README.MD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +37,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3A0585EB23C1D5E9004E11B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				3A0585EC23C1D609004E11B7 /* QSProxyLauncher.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		3A0585A723C1B2B6004E11B7 /* QSProxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSProxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0585AA23C1B2B6004E11B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +63,14 @@
 		3A0585C223C1B2B7004E11B7 /* QSProxyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSProxyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0585C623C1B2B7004E11B7 /* QSProxyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSProxyUITests.swift; sourceTree = "<group>"; };
 		3A0585C823C1B2B7004E11B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0585D823C1D468004E11B7 /* QSProxyLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSProxyLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0585DA23C1D468004E11B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A0585DC23C1D469004E11B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A0585DF23C1D469004E11B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3A0585E123C1D469004E11B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0585E223C1D469004E11B7 /* QSProxyLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QSProxyLauncher.entitlements; sourceTree = "<group>"; };
+		3A0585E923C1D51F004E11B7 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		3A0585EE23C1D73B004E11B7 /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0585ED23C1D613004E11B7 /* ServiceManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,16 +96,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A0585D523C1D468004E11B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3A05859E23C1B2B6004E11B7 = {
 			isa = PBXGroup;
 			children = (
+				3A0585EE23C1D73B004E11B7 /* README.MD */,
 				3A0585A923C1B2B6004E11B7 /* QSProxy */,
 				3A0585BA23C1B2B7004E11B7 /* QSProxyTests */,
 				3A0585C523C1B2B7004E11B7 /* QSProxyUITests */,
+				3A0585D923C1D468004E11B7 /* QSProxyLauncher */,
 				3A0585A823C1B2B6004E11B7 /* Products */,
+				3A0585E823C1D51F004E11B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +125,7 @@
 				3A0585A723C1B2B6004E11B7 /* QSProxy.app */,
 				3A0585B723C1B2B7004E11B7 /* QSProxyTests.xctest */,
 				3A0585C223C1B2B7004E11B7 /* QSProxyUITests.xctest */,
+				3A0585D823C1D468004E11B7 /* QSProxyLauncher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +160,26 @@
 			path = QSProxyUITests;
 			sourceTree = "<group>";
 		};
+		3A0585D923C1D468004E11B7 /* QSProxyLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				3A0585DA23C1D468004E11B7 /* AppDelegate.swift */,
+				3A0585DC23C1D469004E11B7 /* Assets.xcassets */,
+				3A0585DE23C1D469004E11B7 /* MainMenu.xib */,
+				3A0585E123C1D469004E11B7 /* Info.plist */,
+				3A0585E223C1D469004E11B7 /* QSProxyLauncher.entitlements */,
+			);
+			path = QSProxyLauncher;
+			sourceTree = "<group>";
+		};
+		3A0585E823C1D51F004E11B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A0585E923C1D51F004E11B7 /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,6 +190,7 @@
 				3A0585A323C1B2B6004E11B7 /* Sources */,
 				3A0585A423C1B2B6004E11B7 /* Frameworks */,
 				3A0585A523C1B2B6004E11B7 /* Resources */,
+				3A0585EB23C1D5E9004E11B7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -177,6 +237,23 @@
 			productReference = 3A0585C223C1B2B7004E11B7 /* QSProxyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		3A0585D723C1D468004E11B7 /* QSProxyLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0585E323C1D469004E11B7 /* Build configuration list for PBXNativeTarget "QSProxyLauncher" */;
+			buildPhases = (
+				3A0585D423C1D468004E11B7 /* Sources */,
+				3A0585D523C1D468004E11B7 /* Frameworks */,
+				3A0585D623C1D468004E11B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QSProxyLauncher;
+			productName = QSProxyLauncher;
+			productReference = 3A0585D823C1D468004E11B7 /* QSProxyLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,6 +275,9 @@
 						CreatedOnToolsVersion = 11.3;
 						TestTargetID = 3A0585A623C1B2B6004E11B7;
 					};
+					3A0585D723C1D468004E11B7 = {
+						CreatedOnToolsVersion = 11.3;
+					};
 				};
 			};
 			buildConfigurationList = 3A0585A223C1B2B6004E11B7 /* Build configuration list for PBXProject "QSProxy" */;
@@ -216,6 +296,7 @@
 				3A0585A623C1B2B6004E11B7 /* QSProxy */,
 				3A0585B623C1B2B7004E11B7 /* QSProxyTests */,
 				3A0585C123C1B2B7004E11B7 /* QSProxyUITests */,
+				3A0585D723C1D468004E11B7 /* QSProxyLauncher */,
 			);
 		};
 /* End PBXProject section */
@@ -225,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0585EF23C1D73B004E11B7 /* README.MD in Resources */,
 				3A0585AD23C1B2B7004E11B7 /* Assets.xcassets in Resources */,
 				3A0585B023C1B2B7004E11B7 /* MainMenu.xib in Resources */,
 			);
@@ -241,6 +323,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0585D623C1D468004E11B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0585DD23C1D469004E11B7 /* Assets.xcassets in Resources */,
+				3A0585E023C1D469004E11B7 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +362,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A0585D423C1D468004E11B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0585DB23C1D468004E11B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +390,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				3A0585AF23C1B2B7004E11B7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3A0585DE23C1D469004E11B7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A0585DF23C1D469004E11B7 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -423,7 +530,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.drewslab.qsproxy.QSProxy;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.drewslab.qsproxy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -441,7 +548,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.drewslab.qsproxy.QSProxy;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.drewslab.qsproxy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -527,6 +634,44 @@
 			};
 			name = Release;
 		};
+		3A0585E423C1D469004E11B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QSProxyLauncher/QSProxyLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QSProxyLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.drewslab.qsproxylauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3A0585E523C1D469004E11B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QSProxyLauncher/QSProxyLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QSProxyLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.drewslab.qsproxylauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -562,6 +707,15 @@
 			buildConfigurations = (
 				3A0585D223C1B2B7004E11B7 /* Debug */,
 				3A0585D323C1B2B7004E11B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A0585E323C1D469004E11B7 /* Build configuration list for PBXNativeTarget "QSProxyLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0585E423C1D469004E11B7 /* Debug */,
+				3A0585E523C1D469004E11B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
