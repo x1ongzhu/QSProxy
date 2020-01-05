@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A0585AB23C1B2B6004E11B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0585AA23C1B2B6004E11B7 /* AppDelegate.swift */; };
+		3A0585AD23C1B2B7004E11B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0585AC23C1B2B7004E11B7 /* Assets.xcassets */; };
+		3A0585B023C1B2B7004E11B7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A0585AE23C1B2B7004E11B7 /* MainMenu.xib */; };
+		3A0585BC23C1B2B7004E11B7 /* QSProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0585BB23C1B2B7004E11B7 /* QSProxyTests.swift */; };
+		3A0585C723C1B2B7004E11B7 /* QSProxyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0585C623C1B2B7004E11B7 /* QSProxyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A0585B823C1B2B7004E11B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A05859F23C1B2B6004E11B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A0585A623C1B2B6004E11B7;
+			remoteInfo = QSProxy;
+		};
+		3A0585C323C1B2B7004E11B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A05859F23C1B2B6004E11B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A0585A623C1B2B6004E11B7;
+			remoteInfo = QSProxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A0585A723C1B2B6004E11B7 /* QSProxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSProxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0585AA23C1B2B6004E11B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A0585AC23C1B2B7004E11B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A0585AF23C1B2B7004E11B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3A0585B123C1B2B7004E11B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0585B223C1B2B7004E11B7 /* QSProxy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QSProxy.entitlements; sourceTree = "<group>"; };
+		3A0585B723C1B2B7004E11B7 /* QSProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0585BB23C1B2B7004E11B7 /* QSProxyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSProxyTests.swift; sourceTree = "<group>"; };
+		3A0585BD23C1B2B7004E11B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0585C223C1B2B7004E11B7 /* QSProxyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSProxyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0585C623C1B2B7004E11B7 /* QSProxyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSProxyUITests.swift; sourceTree = "<group>"; };
+		3A0585C823C1B2B7004E11B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A0585A423C1B2B6004E11B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0585B423C1B2B7004E11B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0585BF23C1B2B7004E11B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A05859E23C1B2B6004E11B7 = {
+			isa = PBXGroup;
+			children = (
+				3A0585A923C1B2B6004E11B7 /* QSProxy */,
+				3A0585BA23C1B2B7004E11B7 /* QSProxyTests */,
+				3A0585C523C1B2B7004E11B7 /* QSProxyUITests */,
+				3A0585A823C1B2B6004E11B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A0585A823C1B2B6004E11B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A0585A723C1B2B6004E11B7 /* QSProxy.app */,
+				3A0585B723C1B2B7004E11B7 /* QSProxyTests.xctest */,
+				3A0585C223C1B2B7004E11B7 /* QSProxyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A0585A923C1B2B6004E11B7 /* QSProxy */ = {
+			isa = PBXGroup;
+			children = (
+				3A0585AA23C1B2B6004E11B7 /* AppDelegate.swift */,
+				3A0585AC23C1B2B7004E11B7 /* Assets.xcassets */,
+				3A0585AE23C1B2B7004E11B7 /* MainMenu.xib */,
+				3A0585B123C1B2B7004E11B7 /* Info.plist */,
+				3A0585B223C1B2B7004E11B7 /* QSProxy.entitlements */,
+			);
+			path = QSProxy;
+			sourceTree = "<group>";
+		};
+		3A0585BA23C1B2B7004E11B7 /* QSProxyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A0585BB23C1B2B7004E11B7 /* QSProxyTests.swift */,
+				3A0585BD23C1B2B7004E11B7 /* Info.plist */,
+			);
+			path = QSProxyTests;
+			sourceTree = "<group>";
+		};
+		3A0585C523C1B2B7004E11B7 /* QSProxyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A0585C623C1B2B7004E11B7 /* QSProxyUITests.swift */,
+				3A0585C823C1B2B7004E11B7 /* Info.plist */,
+			);
+			path = QSProxyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A0585A623C1B2B6004E11B7 /* QSProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0585CB23C1B2B7004E11B7 /* Build configuration list for PBXNativeTarget "QSProxy" */;
+			buildPhases = (
+				3A0585A323C1B2B6004E11B7 /* Sources */,
+				3A0585A423C1B2B6004E11B7 /* Frameworks */,
+				3A0585A523C1B2B6004E11B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QSProxy;
+			productName = QSProxy;
+			productReference = 3A0585A723C1B2B6004E11B7 /* QSProxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A0585B623C1B2B7004E11B7 /* QSProxyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0585CE23C1B2B7004E11B7 /* Build configuration list for PBXNativeTarget "QSProxyTests" */;
+			buildPhases = (
+				3A0585B323C1B2B7004E11B7 /* Sources */,
+				3A0585B423C1B2B7004E11B7 /* Frameworks */,
+				3A0585B523C1B2B7004E11B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A0585B923C1B2B7004E11B7 /* PBXTargetDependency */,
+			);
+			name = QSProxyTests;
+			productName = QSProxyTests;
+			productReference = 3A0585B723C1B2B7004E11B7 /* QSProxyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A0585C123C1B2B7004E11B7 /* QSProxyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0585D123C1B2B7004E11B7 /* Build configuration list for PBXNativeTarget "QSProxyUITests" */;
+			buildPhases = (
+				3A0585BE23C1B2B7004E11B7 /* Sources */,
+				3A0585BF23C1B2B7004E11B7 /* Frameworks */,
+				3A0585C023C1B2B7004E11B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A0585C423C1B2B7004E11B7 /* PBXTargetDependency */,
+			);
+			name = QSProxyUITests;
+			productName = QSProxyUITests;
+			productReference = 3A0585C223C1B2B7004E11B7 /* QSProxyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A05859F23C1B2B6004E11B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Drew;
+				TargetAttributes = {
+					3A0585A623C1B2B6004E11B7 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					3A0585B623C1B2B7004E11B7 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 3A0585A623C1B2B6004E11B7;
+					};
+					3A0585C123C1B2B7004E11B7 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 3A0585A623C1B2B6004E11B7;
+					};
+				};
+			};
+			buildConfigurationList = 3A0585A223C1B2B6004E11B7 /* Build configuration list for PBXProject "QSProxy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A05859E23C1B2B6004E11B7;
+			productRefGroup = 3A0585A823C1B2B6004E11B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A0585A623C1B2B6004E11B7 /* QSProxy */,
+				3A0585B623C1B2B7004E11B7 /* QSProxyTests */,
+				3A0585C123C1B2B7004E11B7 /* QSProxyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A0585A523C1B2B6004E11B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0585AD23C1B2B7004E11B7 /* Assets.xcassets in Resources */,
+				3A0585B023C1B2B7004E11B7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0585B523C1B2B7004E11B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0585C023C1B2B7004E11B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A0585A323C1B2B6004E11B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0585AB23C1B2B6004E11B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0585B323C1B2B7004E11B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0585BC23C1B2B7004E11B7 /* QSProxyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0585BE23C1B2B7004E11B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0585C723C1B2B7004E11B7 /* QSProxyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A0585B923C1B2B7004E11B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A0585A623C1B2B6004E11B7 /* QSProxy */;
+			targetProxy = 3A0585B823C1B2B7004E11B7 /* PBXContainerItemProxy */;
+		};
+		3A0585C423C1B2B7004E11B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A0585A623C1B2B6004E11B7 /* QSProxy */;
+			targetProxy = 3A0585C323C1B2B7004E11B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A0585AE23C1B2B7004E11B7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A0585AF23C1B2B7004E11B7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A0585C923C1B2B7004E11B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A0585CA23C1B2B7004E11B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3A0585CC23C1B2B7004E11B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QSProxy/QSProxy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QSProxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.drewslab.qsproxy.QSProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3A0585CD23C1B2B7004E11B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QSProxy/QSProxy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QSProxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.drewslab.qsproxy.QSProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3A0585CF23C1B2B7004E11B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QSProxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.drewslab.qsproxy.QSProxyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QSProxy.app/Contents/MacOS/QSProxy";
+			};
+			name = Debug;
+		};
+		3A0585D023C1B2B7004E11B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QSProxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.drewslab.qsproxy.QSProxyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QSProxy.app/Contents/MacOS/QSProxy";
+			};
+			name = Release;
+		};
+		3A0585D223C1B2B7004E11B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QSProxyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.drewslab.qsproxy.QSProxyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QSProxy;
+			};
+			name = Debug;
+		};
+		3A0585D323C1B2B7004E11B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QSProxyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.drewslab.qsproxy.QSProxyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QSProxy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A0585A223C1B2B6004E11B7 /* Build configuration list for PBXProject "QSProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0585C923C1B2B7004E11B7 /* Debug */,
+				3A0585CA23C1B2B7004E11B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A0585CB23C1B2B7004E11B7 /* Build configuration list for PBXNativeTarget "QSProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0585CC23C1B2B7004E11B7 /* Debug */,
+				3A0585CD23C1B2B7004E11B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A0585CE23C1B2B7004E11B7 /* Build configuration list for PBXNativeTarget "QSProxyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0585CF23C1B2B7004E11B7 /* Debug */,
+				3A0585D023C1B2B7004E11B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A0585D123C1B2B7004E11B7 /* Build configuration list for PBXNativeTarget "QSProxyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0585D223C1B2B7004E11B7 /* Debug */,
+				3A0585D323C1B2B7004E11B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A05859F23C1B2B6004E11B7 /* Project object */;
+}
