@@ -66,7 +66,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 AppDelegate.statusIcon.button?.image?.size = NSSize(width: NSApplication.shared.mainMenu!.menuBarHeight, height: NSApplication.shared.mainMenu!.menuBarHeight)
                 print(self.shell("networksetup -setwebproxystate \"wi-fi\" off"))
                 print(self.shell("networksetup -setsecurewebproxystate \"wi-fi\" off"))
-                print(self.shell("git config --global http.proxy http://" + AppDelegate.proxyHost + ":" + AppDelegate.proxyPort + " && git config --global https.proxy http://" + AppDelegate.proxyHost + ":" + AppDelegate.proxyPort))
+                print(self.shell("git config --global --unset http.proxy && git config --global --unset https.proxy"))
                 proxyOn = false;
             } else {
                 AppDelegate.statusIcon.button?.image = NSImage(named: "icon_connected")
@@ -75,7 +75,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 print(self.shell("networksetup -setsecurewebproxy \"wi-fi\" " + AppDelegate.proxyHost + " " + AppDelegate.proxyPort))
                 print(self.shell("networksetup -setwebproxystate \"wi-fi\" on"))
                 print(self.shell("networksetup -setsecurewebproxystate \"wi-fi\" on"))
-                print(self.shell("git config --global --unset http.proxy && git config --global --unset https.proxy"))
+                print(self.shell("git config --global http.proxy http://" + AppDelegate.proxyHost + ":" + AppDelegate.proxyPort + " && git config --global https.proxy http://" + AppDelegate.proxyHost + ":" + AppDelegate.proxyPort))
                 proxyOn = true;
             }
             
